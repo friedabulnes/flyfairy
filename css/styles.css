@@ -1,0 +1,28 @@
+body {
+    width: 100%;
+    overflow: hidden;
+    background-color: lightgoldenrodyellow;
+  
+  }
+
+  .titulo{
+    font-family: fantasy;
+    text-align: center;
+    color:aliceblue;
+    font-size: 200%;
+    width: 100%;
+    top: 10%; 
+    position: absolute;
+    padding-top:30%;
+
+  }
+
+  .button{
+    font-family: cursive;
+    background-color:lightcoral;
+    font-size: 150%;
+    text-align: left;
+    position: absolute;
+    color: brown;
+
+  }
