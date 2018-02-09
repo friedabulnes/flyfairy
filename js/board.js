@@ -5,7 +5,7 @@ function Board (canvas,height,width){
     this.width = width;
     this.ctx = canvas ;
     this.image = new Image();
-    this.image.src = "/home/frieda/Documentos/ironhack/week3/day1/My Game/img/bosque.png";
+    this.image.src = "img/bosque.png";
     //Con esta funcion auto-ejecutamos drawBoard()
     this.image.addEventListener("load",this.drawBoard.bind(this) )
 }
